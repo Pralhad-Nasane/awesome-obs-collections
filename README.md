@@ -6,7 +6,7 @@
 [![OBS Studio](https://img.shields.io/badge/OBS%20Studio-Open%20Source-blue?style=flat-square)](https://obsproject.com/)
 [![Status](https://img.shields.io/badge/Status-Active-green?style=flat-square)](https://github.com/Pralhad-Nasane/awesome-obs-collections)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange?style=flat-square)](https://github.com/Pralhad-Nasane/awesome-obs-collections/blob/main/contributing.md)
-[![License: MIT](https://img.shields.io/badge/License-MIT-lightgray?style=flat-square)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgray?style=flat-square)](https://github.com/Pralhad-Nasane/awesome-obs-collections/blob/main/LICENSE)
 
 > A curated collection of **open-source** plugins, scripts, tools, and themes for OBS Studio.
 
@@ -15,11 +15,12 @@ This repository focuses **exclusively** on high-quality, open-source software re
 
 ## Contents
 
-* [Plugins](#plugins).
-* [Scripts](#scripts).
-* [External Tools & Utilities](#external-tools--utilities).
-* [OBS Themes](#obs-themes).
-* [Contributions](#contributions).
+* [Plugins](#plugins)
+* [Scripts](#scripts)
+* [External Tools & Utilities](#external-tools--utilities)
+* [OBS Themes](#obs-themes)
+* [Contributions](#contributions)
+* [Contact](#contact)
 
 ---
 
@@ -180,10 +181,10 @@ We welcome community contributions! Help us keep this list awesome.
 ### Guidelines
 
 Please ensure the resource:
--  Is open-source (GitHub/GitLab)
--  Is actively maintained or still useful
--  Is high quality and relevant to OBS Studio
--  Follows our format: `* [Name](url) - Description. Difficulty.`
+* Is open-source (GitHub/GitLab)
+* Is actively maintained or still useful
+* Is high quality and relevant to OBS Studio
+* Follows our format: `* [Name](url) - Description. Difficulty.`
 
  Read our full [Contributing Guidelines](contributing.md) for more details.
 
@@ -196,11 +197,4 @@ Have questions or want to discuss OBS resources? Connect with me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/pralhadnasane)
 
 **Pralhad Nasane** - Feel free to reach out for discussions about OBS Studio, streaming, or this collection!
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
