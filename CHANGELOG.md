@@ -4,9 +4,37 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+
 ---
 
-## [Unreleased]
+## [1.2.0] - 2025-12-04
+
+### Added
+- Autostarter plugin for auto-launching programs
+- SE.Live plugin for StreamElements integration
+- Face Tracker plugin for AI-powered face tracking
+- Auto Execute Commands Lua script
+- Countdown Timer Python script
+- Now Playing (Linux) Python script
+- Clock Time & Date Display Python script
+- Ocean Blue theme
+- Meloncholy theme
+
+### Fixed
+- broken repository and forum links
+
+### Changed
+- Separated Lua and Python script sections
+- Improved resource descriptions
+
+### Removed
+- atkAudio plugin (non-existent repository)
+- jinliu/obs-auto-scene-switcher duplicate
+- shibnev/obs-blade (404)
+
+---
+
+## [1.1.0] - 2025-12-03
 
 ### Added
 - Star counts for popular repositories
@@ -34,7 +62,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
-## [1.0.0] - 2025-12-03
+## [1.0.0] - 2025-12-02
 
 ### Added
 - Initial release

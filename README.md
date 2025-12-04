@@ -19,6 +19,7 @@ This repository focuses **exclusively** on high-quality, open-source software re
 * [Scripts](#scripts)
 * [External Tools & Utilities](#external-tools--utilities)
 * [OBS Themes](#obs-themes)
+* [OBS Forks](#obs-forks)
 * [Contributions](#contributions)
 * [Contact](#contact)
 
@@ -30,9 +31,9 @@ This repository focuses **exclusively** on high-quality, open-source software re
 
 * [Multiple RTMP Outputs](https://github.com/sorayuki/obs-multi-rtmp) - Stream to multiple platforms simultaneously. 4.5k stars. Intermediate.
 
-* [Aitum Vertical](https://github.com/aitum/obs-vertical) - Adds a vertical canvas (9:16) for Shorts/Reels. 228 stars. Beginner. Perfect for TikTok, YouTube Shorts, Instagram Reels.
+* [Aitum Vertical](https://github.com/aitum/obs-vertical-canvas) - Adds a vertical canvas (9:16) for Shorts/Reels. 228 stars. Beginner. Perfect for TikTok, YouTube Shorts, Instagram Reels.
 
-* [Aitum Multistream](https://github.com/aitum/obs-multistream) - Integrated multi-platform streaming inside OBS. 169 stars. Beginner.
+* [Aitum Multistream](https://github.com/aitum/obs-aitum-multistream) - Integrated multi-platform streaming inside OBS. 169 stars. Beginner.
 
 * [Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher) - Rule-based automated scene switching. 1.3k stars. Advanced. Powerful automation tool for complex workflows.
 
@@ -40,7 +41,11 @@ This repository focuses **exclusively** on high-quality, open-source software re
 
 * [Downstream Keyer](https://github.com/exeldro/obs-downstream-keyer) - Add persistent overlays across all scenes. Intermediate. Great for consistent branding across scenes.
 
-* [Directory Watch Media](https://github.com/exeldro/obs-dir-watch) - Auto-update media source based on folder contents. Intermediate.
+* [Directory Watch Media](https://github.com/exeldro/obs-dir-watch-media) - Auto-update media source based on folder contents. Intermediate.
+
+* [Autostarter](https://github.com/DaviBe92/Autostarter) - Auto-launch programs when OBS starts. Beginner. Start chatbots, tools automatically with OBS.
+
+* [SE.Live (StreamElements)](https://github.com/StreamElements/obs-streamelements-core) - Integrates Twitch/YouTube/Facebook chat, alerts, and activity feeds. Beginner. All-in-one streaming solution.
 
 ---
 
@@ -52,7 +57,9 @@ This repository focuses **exclusively** on high-quality, open-source software re
 
 * [OBS WebSocket (Built-in)](https://github.com/obsproject/obs-websocket) - Remote control interface for OBS v28+. 4.2k stars. Advanced. Built-in since OBS 28.0 Essential for automation and remote control.
 
-* [NDI (DistroAV) / OBS-NDI](https://github.com/Palakis/obs-ndi) - Send/receive video over LAN via NDI. Advanced. Network video transmission for multi-PC setups.
+* [DistroAV (NDI)](https://github.com/DistroAV/DistroAV) - Send/receive high-quality video over IP using NDI protocol. Advanced. Network video transmission for multi-PC setups Essential for dual-PC streaming.
+
+* [Win-Capture-Audio](https://github.com/bozbez/win-capture-audio) - Capture audio from specific applications. Beginner. Isolate audio from individual programs instead of entire system.
 
 ---
 
@@ -60,9 +67,9 @@ This repository focuses **exclusively** on high-quality, open-source software re
 
 * [Move Transition](https://github.com/exeldro/obs-move-transition) - Animated transitions for sources. 813 stars. Intermediate. Create smooth, animated scene transitions.
 
-* [StreamFX](https://github.com/Xaymar/obs-StreamFX) - Advanced effects: 3D, blur, shaders, glow. 4.1k stars. Advanced. 🌟 Industry-standard effects plugin.
+* [StreamFX](https://github.com/Vhonowslend/StreamFX-Public) - Advanced effects: 3D, blur, shaders, glow. 4.1k stars. Advanced. 🌟 Industry-standard effects plugin.
 
-* [StreamFX FreeFX Fork](https://github.com/nicolasdeory/streamfx-freefx) - Updated community fork. Advanced. Community-maintained alternative.
+* [StreamFX FreeFX Fork](https://github.com/xoxfaby/obs-StreamFX) - Updated community fork. Advanced. Community-maintained alternative.
 
 * [ShaderFilter](https://github.com/exeldro/obs-shaderfilter) - Apply GLSL/HLSL shader filters to any source. 629 stars. Advanced. Custom shader programming support.
 
@@ -70,17 +77,21 @@ This repository focuses **exclusively** on high-quality, open-source software re
 
 * [Freeze Filter](https://github.com/exeldro/obs-freeze-filter) - Freeze any video source on demand. Beginner. ⏸️ Instant freeze frame effect.
 
+* [Composite Blur](https://github.com/FiniteSingularity/obs-composite-blur) - High-performance blur with multiple algorithms (Gaussian, Box, Bokeh). Intermediate. Correct alpha channel handling prevents halos.
+
+* [Background Removal](https://github.com/royshil/obs-backgroundremoval) - AI-powered virtual green screen using neural network segmentation. Intermediate. Remove backgrounds without physical green screen.
+
+* [Input Overlay](https://github.com/univrsal/input-overlay) - Visualize keyboard, mouse, and gamepad inputs on stream. Intermediate. Essential for tutorials and speedrunning.
+
 * [Spectralizer](https://github.com/univrsal/spectralizer) - Beautiful audio visualizer inside OBS. 611 stars. Beginner. **Archived** - Maintainer suggests "Waveform" as replacement.
 
 * [Tuna](https://github.com/univrsal/tuna) - Real-time "Now Playing" music info from media players. Beginner. Supports Spotify, VLC, MPD, and more.
 
+* [Face Tracker](https://github.com/norihiro/obs-face-tracker) - AI-powered face tracking for dynamic camera focus. Intermediate. Auto-crops and centers speaker using face detection.
+
 ---
 
 ### Audio
-
-* [OBS Audio Monitor](https://github.com/exeldro/obs-audio-monitor) - Monitor any source to any audio device. Beginner. Route audio to multiple devices.
-
-* [atkAudio](https://github.com/royshilkrot/atkAudio) - ASIO, multichannel routing, VST3 plugins, MIDI input. Advanced. Professional audio production features.
 
 * [OBS-ASIO](https://github.com/Andersama/obs-asio) - Native ASIO driver support for OBS. Advanced. Low-latency audio for musicians.
 
@@ -88,9 +99,7 @@ This repository focuses **exclusively** on high-quality, open-source software re
 
 ### Captioning & Accessibility
 
-* [Closed Captioning (Google Speech)](https://github.com/ratwithacompiler/OBS-captions-plugin) - Cloud-based real-time captions. Intermediate. Requires internet connection Improve accessibility with live captions.
-
-* [LocalVocal](https://github.com/royshilkrot/LocalVocal) - Offline Whisper-based subtitles & translation. Advanced. Fully offline - no cloud required Supports multiple languages.
+* [LocalVocal](https://github.com/royshil/obs-localvocal) - Offline Whisper-based subtitles & translation. Advanced. Fully offline - no cloud required Supports multiple languages.
 
 * [OBS Color Monitor (Scopes)](https://github.com/norihiro/obs-color-monitor) - Waveform, vectorscope, parade scopes. Intermediate. Professional color grading tools.
 
@@ -109,23 +118,24 @@ OBS supports both **Lua** and **Python** scripting.
 
 * [Libre Macros](https://github.com/upgradeQ/OBS-Libre-Macros) - Macro engine for advanced automation.
 
+* [Zoom to Mouse](https://github.com/BlankSourceCode/obs-zoom-to-mouse) - Automatically zooms display capture to follow mouse cursor. Beginner. Smooth interpolation for tutorials.
+
+* [OBS Bounce](https://github.com/insin/obs-bounce) - Animate sources with DVD-logo style bouncing or physics throwing. Beginner. Physics simulation for fun layouts.
+
+* [Auto Execute Commands](https://github.com/rse/obs-scripts) - Execute commands on OBS startup/shutdown. Beginner. Part of rse/obs-scripts collection.
+
 ---
 
 ### Python Scripts
 
-* [Official OBS Python Examples](https://github.com/obsproject/obs-studio/tree/master/UI/scripts) - Learn Python scripting from official examples. Beginner to Advanced. Best starting point for learning OBS Python scripting.
-
 * [Countdown Timer](https://github.com/micahmo/obs-countdown-python) - Countdown to specific date/time with customizable text. Beginner. Counts down to specific time, customizable expired text Requirements: Python 3.6+, python-dateutil, pyperclip.
 
-* [Countdown to Time (Duisterethomas)](https://obsproject.com/forum/resources/python-countdown-to-time.1242/) - Timer with scene switching on end. Beginner. Optional beep when timer ends (Windows only) Can switch scenes automatically.
-
-* [Now Playing](https://obsproject.com/forum/resources/now-playing.1378/) - Display current song from Spotify, iTunes, VLC, etc. Intermediate. Supports multiple media players Requirements: Python 3.6, PyWin32.
+* [Countdown Timer with Sound](https://github.com/KernFerm/countdown-timer-obs) - GUI countdown timer with sound alerts. Beginner. Pygame/Tkinter interface, import .mp3/.wav sounds, plays sound at specific time.
 
 * [Now Playing (Linux)](https://github.com/shock59/now-playing) - Spotify/media player info for Linux with artwork. Displays song title, artist, and album artwork. Uses browser source (http://localhost:4640/). Advanced. Requirements: PyGObject, PyYAML, Tornado, websockets, playerctl.
 
-* [Clock Time & Date Display](https://github.com/search?q=obs+python+clock&type=code) - Real-time clock and date display. Beginner. Customizable date/time formats Updates in real-time.
 
-* [Auto Scene Switcher](https://github.com/jinliu/obs-auto-scene-switcher) - Cycle through scenes automatically. Intermediate. Configurable cycle intervals Exclude specific scenes from rotation.
+* [Date Time](https://github.com/deadbraindev/obs-date-time) - Real-time date and time display. Beginner. Updates text sources with current timestamp.
 
 * [Random Scene Switcher](https://github.com/deadbraindev/obs-scene-switcher) - Randomly switch between scenes. Random scene selection at intervals. Intermediate.
 
@@ -135,15 +145,11 @@ OBS supports both **Lua** and **Python** scripting.
 
 * [OBS WebSocket Python Client](https://github.com/Elektordi/obs-websocket-py) - Control OBS remotely via Python. Remote OBS control via WebSocket. Create custom automation tools. Works with OBS 28.0+ built-in WebSocket. Advanced.
 
-* [Text File Reader/Updater](https://github.com/obsproject/obs-studio/blob/master/docs/scripting.rst) - Update text sources from files. Read from JSON, TXT, CSV files. Auto-refresh on file change. Beginner.
-
 ---
 
 ## External Tools & Utilities
 
 *(All open-source and compatible through OBS WebSocket.)*
-
-* [OBS Blade](https://github.com/shibnev/obs-blade) - Modern touch remote control (web + mobile). Beginner. Mobile-first design.
 
 * [Bitfocus Companion](https://github.com/bitfocus/companion) - Production automation + OBS control. Advanced. Stream Deck integration.
 
@@ -151,15 +157,33 @@ OBS supports both **Lua** and **Python** scripting.
 
 * [OBS CLI](https://github.com/muesli/obs-cli) - Control OBS Studio from the terminal/automation scripts. Advanced. Command-line power users.
 
+* [NohBoard](https://github.com/ThoNohT/NohBoard) - Standalone keyboard visualization tool. Beginner. Alternative to Input Overlay plugin.
+
+* [OBS-Web](https://github.com/Niek/obs-web) - Browser-based remote control panel. Beginner. Touch-friendly control from mobile devices.
+
+* [OBS Command](https://github.com/kalenmike/obs-cmd) - CLI tool for controlling OBS instances. Advanced. Rust-based command-line automation.
+
 ---
 
 ## OBS Themes
 
-* [JustEDit Theme](https://obsproject.com/forum/resources/just-edit-theme.1659/) - Modern UI theme for OBS. Beginner. Clean and modern interface.
-
-* [Monsteer Theme Collection](https://obsproject.com/forum/resources/authors/monsteer.173493/) - High-quality theme pack. Beginner. 📦 Multiple theme options.
-
 * [Twitchy Theme](https://obsproject.com/forum/resources/twitchy-obs-theme.1192/) - Twitch-inspired interface theme. Beginner. Purple aesthetic for Twitch streamers.
+
+* [Catppuccin](https://github.com/catppuccin/obs) - Soothing pastel theme in Latte, Frappé, Macchiato, Mocha variants. Beginner. Part of popular Catppuccin design system.
+
+* [Ocean Blue](https://obsproject.com/forum/resources/ocean-blue.1933/) - Modern dark theme with blue accents and clean unified look. Beginner. Brighter blue window bar, darker background.
+
+* [Meloncholy](https://obsproject.com/forum/resources/meloncholy.1894/) - Vibrant light theme with custom icons. Beginner. Modern alternative to standard light themes. Updated March 2024.
+
+
+
+---
+
+## OBS Forks
+
+Specialized distributions based on OBS Studio core:
+
+* [Prism Live Studio](https://github.com/naver/prism-live-studio) - Feature-rich fork with beauty effects and built-in multistreaming. Intermediate. Consumer-focused with simplified interface.
 
 ---
 
