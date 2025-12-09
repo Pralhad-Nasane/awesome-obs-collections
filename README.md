@@ -8,6 +8,8 @@
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange?style=flat-square)](https://github.com/Pralhad-Nasane/awesome-obs-collections/blob/main/contributing.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgray?style=flat-square)](https://github.com/Pralhad-Nasane/awesome-obs-collections/blob/main/LICENSE)
 
+🌐 **Official Website**: [https://pralhad-nasane.github.io/awesome-obs-collections/](https://pralhad-nasane.github.io/awesome-obs-collections/)
+
 > A curated collection of **open-source** plugins, scripts, tools, and themes for OBS Studio.
 
 This repository focuses **exclusively** on high-quality, open-source software related to OBS Studio.

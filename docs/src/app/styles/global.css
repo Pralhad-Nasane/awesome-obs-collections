@@ -1,0 +1,15 @@
+/* Import design system */
+@import '../shared/config/variables.css';
+@import '../shared/config/reset.css';
+
+/* Import shared UI components */
+@import '../shared/ui/button/Button.css';
+@import '../shared/ui/progress-bar/ProgressBar.css';
+
+/* Import widgets */
+@import '../widgets/navbar/ui/Navbar.css';
+@import '../widgets/hero-section/ui/HeroSection.css';
+@import '../widgets/obs-mockup/ui/OBSMockup.css';
+
+/* Import features */
+@import '../features/floating-symbols/ui/FloatingSymbols.css';

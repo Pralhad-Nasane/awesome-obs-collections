@@ -1,0 +1,270 @@
+/* Container */
+.floating-symbols {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 5;
+}
+
+/* Symbol Base - Glassmorphism */
+.floating-symbols__item {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 14px;
+    box-shadow:
+        0 4px 20px rgba(0, 0, 0, 0.06),
+        0 1px 3px rgba(0, 0, 0, 0.03),
+        inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    animation: floatSymbol 6s ease-in-out infinite;
+    transition: all 0.3s ease;
+    pointer-events: auto;
+}
+
+.floating-symbols__item:hover {
+    background: rgba(255, 255, 255, 0.85);
+    border-color: rgba(99, 102, 241, 0.3);
+    box-shadow:
+        0 8px 32px rgba(99, 102, 241, 0.15),
+        0 4px 12px rgba(0, 0, 0, 0.06),
+        inset 0 1px 0 rgba(255, 255, 255, 1);
+    transform: translateY(-3px) scale(1.05);
+}
+
+.floating-symbols__item svg {
+    width: 20px;
+    height: 20px;
+    stroke: #6b7280;
+    stroke-width: 1.5;
+    fill: none;
+    transition: stroke 0.3s ease;
+}
+
+.floating-symbols__item:hover svg {
+    stroke: #6366f1;
+}
+
+/* 16 Symbol positions - adjusted to leave navbar space */
+.floating-symbols__item--1 {
+    top: 12%;
+    right: 40%;
+    animation-delay: 0s;
+}
+
+.floating-symbols__item--2 {
+    top: 14%;
+    right: 25%;
+    animation-delay: -0.5s;
+}
+
+.floating-symbols__item--3 {
+    top: 18%;
+    right: 10%;
+    animation-delay: -1s;
+}
+
+.floating-symbols__item--4 {
+    top: 25%;
+    right: 3%;
+    animation-delay: -1.5s;
+}
+
+.floating-symbols__item--5 {
+    top: 40%;
+    right: 2%;
+    animation-delay: -2s;
+}
+
+.floating-symbols__item--6 {
+    top: 55%;
+    right: 3%;
+    animation-delay: -2.5s;
+}
+
+.floating-symbols__item--7 {
+    top: 70%;
+    right: 5%;
+    animation-delay: -3s;
+}
+
+.floating-symbols__item--8 {
+    top: 82%;
+    right: 12%;
+    animation-delay: -3.5s;
+}
+
+.floating-symbols__item--9 {
+    top: 88%;
+    right: 28%;
+    animation-delay: -4s;
+}
+
+.floating-symbols__item--10 {
+    top: 90%;
+    right: 45%;
+    animation-delay: -4.5s;
+}
+
+.floating-symbols__item--11 {
+    top: 85%;
+    right: 58%;
+    animation-delay: -5s;
+}
+
+.floating-symbols__item--12 {
+    top: 72%;
+    right: 60%;
+    animation-delay: -5.5s;
+}
+
+.floating-symbols__item--13 {
+    top: 55%;
+    right: 58%;
+    animation-delay: -0.3s;
+}
+
+.floating-symbols__item--14 {
+    top: 38%;
+    right: 56%;
+    animation-delay: -0.8s;
+}
+
+.floating-symbols__item--15 {
+    top: 26%;
+    right: 52%;
+    animation-delay: -1.3s;
+}
+
+.floating-symbols__item--16 {
+    top: 16%;
+    right: 55%;
+    animation-delay: -1.8s;
+}
+
+@keyframes floatSymbol {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Connecting Lines */
+.floating-symbols__connections {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.floating-symbols__connections svg {
+    width: 100%;
+    height: 100%;
+}
+
+.floating-symbols__line {
+    stroke: rgba(160, 160, 160, 0.25);
+    stroke-width: 1;
+    stroke-dasharray: 5, 4;
+    fill: none;
+    animation: dashMove 20s linear infinite;
+}
+
+.floating-symbols__dot {
+    fill: rgba(130, 130, 130, 0.35);
+}
+
+@keyframes dashMove {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    100% {
+        stroke-dashoffset: -100;
+    }
+}
+
+/* Node Points */
+.floating-symbols__node {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: rgba(140, 140, 140, 0.4);
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.floating-symbols__node::after {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border: 1px solid rgba(140, 140, 140, 0.2);
+    border-radius: 50%;
+    animation: nodePulse 2.5s ease-in-out infinite;
+}
+
+.floating-symbols__node--1 {
+    top: 20%;
+    right: 48%;
+}
+
+.floating-symbols__node--2 {
+    top: 45%;
+    right: 54%;
+}
+
+.floating-symbols__node--3 {
+    top: 75%;
+    right: 52%;
+}
+
+.floating-symbols__node--4 {
+    top: 35%;
+    right: 4%;
+}
+
+.floating-symbols__node--5 {
+    top: 65%;
+    right: 6%;
+}
+
+.floating-symbols__node--6 {
+    top: 88%;
+    right: 38%;
+}
+
+@keyframes nodePulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(2);
+        opacity: 0.3;
+    }
+}
+
+/* Responsive - Hide on mobile */
+@media (max-width: 1024px) {
+
+    .floating-symbols,
+    .floating-symbols__connections,
+    .floating-symbols__node {
+        display: none;
+    }
+}

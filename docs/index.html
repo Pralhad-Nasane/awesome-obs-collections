@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>OBSverse - Discover 50+ Curated OBS Studio Plugins, Scripts & Tools</title>
+    <meta name="description"
+        content="Discover 50+ handpicked open-source plugins, scripts, tools, and themes to transform your OBS Studio into a professional streaming powerhouse. Free, curated, and community-driven.">
+    <meta name="keywords"
+        content="OBS Studio, OBS plugins, OBS scripts, OBS tools, OBS themes, awesome-obs, streaming software, live streaming, open source, StreamFX, obs-websocket, NDI, video production, content creation, Twitch, YouTube streaming">
+    <meta name="author" content="Pralhad Nasane">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://pralhad-nasane.github.io/awesome-obs-collections/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pralhad-nasane.github.io/awesome-obs-collections/">
+    <meta property="og:title" content="OBSverse - Curated OBS Studio Resources">
+    <meta property="og:description"
+        content="Discover 50+ handpicked open-source plugins, scripts, tools, and themes for OBS Studio.">
+    <meta property="og:image"
+        content="https://pralhad-nasane.github.io/awesome-obs-collections/assets/images/og-image.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://pralhad-nasane.github.io/awesome-obs-collections/">
+    <meta name="twitter:title" content="OBSverse - Curated OBS Studio Resources">
+    <meta name="twitter:description"
+        content="Discover 50+ handpicked open-source plugins, scripts, tools, and themes for OBS Studio.">
+    <meta name="twitter:image"
+        content="https://pralhad-nasane.github.io/awesome-obs-collections/assets/images/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Shared Layer -->
+    <link rel="stylesheet" href="src/shared/config/variables.css">
+    <link rel="stylesheet" href="src/shared/config/reset.css">
+    <link rel="stylesheet" href="src/shared/ui/button/Button.css">
+    <link rel="stylesheet" href="src/shared/ui/progress-bar/ProgressBar.css">
+
+    <!-- Widgets Layer -->
+    <link rel="stylesheet" href="src/widgets/navbar/ui/Navbar.css">
+    <link rel="stylesheet" href="src/widgets/hero-section/ui/HeroSection.css">
+    <link rel="stylesheet" href="src/widgets/obs-mockup/ui/OBSMockup.css">
+    <link rel="stylesheet" href="src/widgets/resource-card/ui/ResourceCard.css">
+    <link rel="stylesheet" href="src/widgets/resources-section/ui/ResourcesSection.css">
+    <link rel="stylesheet" href="src/widgets/contribute-section/ui/ContributeSection.css">
+    <link rel="stylesheet" href="src/widgets/footer/ui/Footer.css">
+
+    <!-- Features Layer -->
+    <link rel="stylesheet" href="src/features/floating-symbols/ui/FloatingSymbols.css">
+</head>
+
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ==================== NAVBAR WIDGET ==================== -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar__container">
+            <a href="#" class="navbar__logo">
+                <img src="assets/images/icon.png" alt="OBSverse" class="navbar__logo-icon">
+                <span class="navbar__logo-text" style="font-size: 1.5rem; letter-spacing: -0.02em;">
+                    <strong style="font-weight: 800;">OBS</strong><span
+                        style="color: #6b7280; font-weight: 500;">verse</span>
+                </span>
+            </a>
+            <!-- Navbar Search (hidden by default, shows on scroll) -->
+            <div class="navbar__search" id="navbar-search">
+                <svg class="navbar__search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="m21 21-4.35-4.35" />
+                </svg>
+                <input type="text" class="navbar__search-input" id="navbar-search-input"
+                    placeholder="Search plugins, scripts, tools...">
+                <select class="navbar__sort" id="navbar-sort">
+                    <option value="name">Name</option>
+                    <option value="stars">Stars</option>
+                    <option value="updated">Updated</option>
+                </select>
+            </div>
+
+            <div class="navbar__links">
+                <a href="#hero" class="navbar__link">Home</a>
+                <a href="#resources" class="navbar__link">Resources</a>
+                <a href="#contribute" class="navbar__link">Contribute</a>
+                <a href="https://github.com/Pralhad-Nasane/awesome-obs-collections" target="_blank" class="navbar__cta">
+                    <svg class="navbar__cta-icon" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                        <path
+                            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                    </svg>
+                    View on GitHub
+                </a>
+            </div>
+            <button class="navbar__toggle" aria-label="Toggle menu">
+                <span class="navbar__toggle-line"></span>
+                <span class="navbar__toggle-line"></span>
+                <span class="navbar__toggle-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION WIDGET ==================== -->
+    <section class="hero" id="hero">
+
+        <!-- Premium Animated Background -->
+        <div class="hero__bg">
+            <div class="hero__grid"></div>
+            <div class="hero__orb hero__orb--1"></div>
+            <div class="hero__orb hero__orb--2"></div>
+            <div class="hero__orb hero__orb--3"></div>
+            <div class="hero__noise"></div>
+        </div>
+
+        <!-- Floating Symbols Feature -->
+        <div class="floating-symbols">
+            <!-- Connecting Lines -->
+            <div class="floating-symbols__connections">
+                <svg viewBox="0 0 1920 1080" preserveAspectRatio="none">
+                    <path class="floating-symbols__line" d="M 1150 55 Q 1100 150 1050 280" />
+                    <path class="floating-symbols__line" d="M 1440 85 Q 1250 200 1100 320" />
+                    <path class="floating-symbols__line" d="M 1730 130 Q 1400 250 1150 350" />
+                    <path class="floating-symbols__line" d="M 1860 270 Q 1500 350 1200 400" />
+                    <path class="floating-symbols__line" d="M 1880 430 Q 1550 430 1200 430" />
+                    <path class="floating-symbols__line" d="M 1860 590 Q 1500 520 1200 460" />
+                    <path class="floating-symbols__line" d="M 1820 760 Q 1450 600 1150 500" />
+                    <path class="floating-symbols__line" d="M 1690 885 Q 1350 700 1100 540" />
+                    <path class="floating-symbols__line" d="M 1380 950 Q 1200 750 1050 560" />
+                    <path class="floating-symbols__line" d="M 1050 970 Q 1050 750 1050 550" />
+                    <path class="floating-symbols__line" d="M 800 920 Q 900 700 980 520" />
+                    <path class="floating-symbols__line" d="M 770 780 Q 880 620 960 480" />
+                    <path class="floating-symbols__line" d="M 800 590 Q 880 520 950 450" />
+                    <path class="floating-symbols__line" d="M 840 410 Q 900 420 950 420" />
+                    <path class="floating-symbols__line" d="M 920 240 Q 960 320 1000 380" />
+                    <path class="floating-symbols__line" d="M 860 110 Q 950 220 1020 320" />
+                    <circle class="floating-symbols__dot" cx="1050" cy="420" r="5" />
+                </svg>
+            </div>
+
+            <!-- 16 Symbol Icons -->
+            <div class="floating-symbols__item floating-symbols__item--1">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="9" />
+                    <path d="M12 7c2.5 0 4 2 4 5s-1.5 5-4 5-4-2-4-5 1.5-5 4-5z" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--2">
+                <svg viewBox="0 0 24 24">
+                    <path
+                        d="M12 2C9 2 9.5 3.5 9.5 3.5V6h3v.5H7S5 6 5 9s1.5 3 1.5 3H8V10s-.2-1.5 1.5-1.5h3s1.5.1 1.5-1.5V4S14.2 2 12 2z" />
+                    <path
+                        d="M12 22c3 0 2.5-1.5 2.5-1.5V18h-3v-.5h5.5s2 .5 2-2.5-1.5-3-1.5-3H16v2s.2 1.5-1.5 1.5h-3s-1.5-.1-1.5 1.5v3s-.2 2 2 2z" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--3">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="8" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--4">
+                <svg viewBox="0 0 24 24">
+                    <path
+                        d="M20 11V8c0-1-1-2-2-2h-3V5c0-1.6-1.3-3-3-3s-3 1.4-3 3v1H6c-1 0-2 1-2 2v3c1.6 0 3 1.3 3 3s-1.4 3-3 3v3c0 1 1 2 2 2h3c0-1.6 1.3-3 3-3s3 1.4 3 3h3c1 0 2-1 2-2v-3c-1.6 0-3-1.3-3-3s1.4-3 3-3z" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--5">
+                <svg viewBox="0 0 24 24">
+                    <path
+                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--6">
+                <svg viewBox="0 0 24 24">
+                    <path
+                        d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.9 0 1.7-.8 1.7-1.7 0-.4-.2-.8-.4-1.1-.3-.3-.4-.7-.4-1.1 0-.9.8-1.7 1.7-1.7H16c3 0 6-2.2 6-6 0-5.5-4.5-9.6-10-9.6z" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--7">
+                <svg viewBox="0 0 24 24">
+                    <rect x="2" y="6" width="13" height="12" rx="2" />
+                    <path d="M15 10l7-4v12l-7-4" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--8">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="3" />
+                    <path d="M12 5a7 7 0 0 1 7 7M12 1a11 11 0 0 1 11 11M12 5a7 7 0 0 0-7 7M12 1a11 11 0 0 0-11 11" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--9">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="9" />
+                    <circle cx="12" cy="12" r="4" fill="#888" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--10">
+                <svg viewBox="0 0 24 24">
+                    <rect x="9" y="2" width="6" height="11" rx="3" />
+                    <path d="M5 10v1a7 7 0 0 0 14 0v-1M12 18v4M8 22h8" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--11">
+                <svg viewBox="0 0 24 24">
+                    <path d="M22 3H2l8 9.5V20l4 2v-8.5L22 3z" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--12">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--13">
+                <svg viewBox="0 0 24 24">
+                    <rect x="2" y="3" width="20" height="14" rx="2" />
+                    <path d="M8 21h8M12 17v4" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--14">
+                <svg viewBox="0 0 24 24">
+                    <path d="M8 6L2 12l6 6M16 6l6 6-6 6" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--15">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="3" />
+                    <path
+                        d="M12 1v3M12 20v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M1 12h3M20 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1" />
+                </svg>
+            </div>
+            <div class="floating-symbols__item floating-symbols__item--16">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="5" cy="12" r="2" />
+                    <circle cx="19" cy="12" r="2" />
+                    <circle cx="12" cy="5" r="2" />
+                    <circle cx="12" cy="19" r="2" />
+                    <path d="M5 12h14M12 5v14" />
+                </svg>
+            </div>
+
+            <!-- Node Points -->
+            <div class="floating-symbols__node floating-symbols__node--1"></div>
+            <div class="floating-symbols__node floating-symbols__node--2"></div>
+            <div class="floating-symbols__node floating-symbols__node--3"></div>
+            <div class="floating-symbols__node floating-symbols__node--4"></div>
+            <div class="floating-symbols__node floating-symbols__node--5"></div>
+            <div class="floating-symbols__node floating-symbols__node--6"></div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="hero__content">
+            <div class="hero__badge">
+                <span class="hero__badge-dot"></span>
+                <span class="hero__badge-text">Open Source • Community Curated</span>
+            </div>
+
+            <h1 class="hero__title">
+                OBS<br>
+                <span class="hero__title-gradient">Resources</span>
+            </h1>
+
+            <p class="hero__subtitle">
+                Discover <strong>50+ handpicked plugins, scripts, and tools</strong> to transform your OBS Studio into a
+                professional streaming powerhouse.
+            </p>
+
+            <!-- Stats -->
+            <div class="hero__stats">
+                <div class="hero__stat">
+                    <span class="hero__stat-value" id="hero-stat-resources">50+</span>
+                    <span class="hero__stat-label">Resources</span>
+                </div>
+                <div class="hero__stat">
+                    <span class="hero__stat-value" id="hero-stat-stars">25K+</span>
+                    <span class="hero__stat-label">GitHub Stars</span>
+                </div>
+                <div class="hero__stat">
+                    <span class="hero__stat-value">5</span>
+                    <span class="hero__stat-label">Categories</span>
+                </div>
+            </div>
+
+            <div class="hero__ctas">
+                <a href="#resources" class="hero__cta hero__cta--primary">
+                    Explore Resources
+                    <svg class="hero__cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <!-- OBS Mockup Widget -->
+        <div class="obs-mockup">
+            <div class="obs-window">
+                <!-- macOS Title Bar -->
+                <div class="obs-titlebar">
+                    <div class="obs-titlebar-controls">
+                        <span class="obs-titlebar-btn obs-titlebar-btn--close"></span>
+                        <span class="obs-titlebar-btn obs-titlebar-btn--min"></span>
+                        <span class="obs-titlebar-btn obs-titlebar-btn--max"></span>
+                    </div>
+                    <div class="obs-titlebar-icon">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <span class="obs-titlebar-text">OBS 32.0.2 - Profile: Untitled - Scenes: Untitled</span>
+                </div>
+
+                <!-- Menu Bar with Dropdowns -->
+                <nav class="obs-menubar">
+                    <!-- Plugins Menu -->
+                    <div class="obs-menu-wrapper">
+                        <span class="obs-menu-item">Plugins</span>
+                        <div class="obs-menu-dropdown">
+                            <a href="#resources" class="obs-menu-link" data-category="plugins">🎬 StreamFX</a>
+                            <a href="#resources" class="obs-menu-link" data-category="plugins">🔌 WebSocket</a>
+                            <a href="#resources" class="obs-menu-link" data-category="plugins">📺 NDI</a>
+                            <a href="#resources" class="obs-menu-link" data-category="plugins">🎨 ShaderFilter</a>
+                            <div class="obs-menu-divider"></div>
+                            <a href="#resources" class="obs-menu-link obs-menu-link--cta">View All Plugins →</a>
+                        </div>
+                    </div>
+                    <!-- Scripts Menu -->
+                    <div class="obs-menu-wrapper">
+                        <span class="obs-menu-item">Scripts</span>
+                        <div class="obs-menu-dropdown">
+                            <a href="#resources" class="obs-menu-link" data-category="scripts">📝 Lua Scripts</a>
+                            <a href="#resources" class="obs-menu-link" data-category="scripts">🐍 Python Scripts</a>
+                            <div class="obs-menu-divider"></div>
+                            <a href="#resources" class="obs-menu-link obs-menu-link--cta">View All Scripts →</a>
+                        </div>
+                    </div>
+                    <!-- Tools Menu -->
+                    <div class="obs-menu-wrapper">
+                        <span class="obs-menu-item">Tools</span>
+                        <div class="obs-menu-dropdown">
+                            <a href="#resources" class="obs-menu-link" data-category="tools">🎮 Kruiz Control</a>
+                            <a href="#resources" class="obs-menu-link" data-category="tools">🖥️ NohBoard</a>
+                            <a href="#resources" class="obs-menu-link" data-category="tools">🌐 OBS-Web</a>
+                            <div class="obs-menu-divider"></div>
+                            <a href="#resources" class="obs-menu-link obs-menu-link--cta">View All Tools →</a>
+                        </div>
+                    </div>
+                    <!-- Themes Menu -->
+                    <div class="obs-menu-wrapper">
+                        <span class="obs-menu-item">Themes</span>
+                        <div class="obs-menu-dropdown">
+                            <a href="#resources" class="obs-menu-link" data-category="themes">🐱 Catppuccin</a>
+                            <a href="#resources" class="obs-menu-link" data-category="themes">💜 Twitchy</a>
+                            <a href="#resources" class="obs-menu-link" data-category="themes">🌊 Ocean Blue</a>
+                            <div class="obs-menu-divider"></div>
+                            <a href="#resources" class="obs-menu-link obs-menu-link--cta">View All Themes →</a>
+                        </div>
+                    </div>
+                    <!-- Help Menu -->
+                    <div class="obs-menu-wrapper">
+                        <span class="obs-menu-item">Help</span>
+                        <div class="obs-menu-dropdown">
+                            <a href="https://github.com/Pralhad-Nasane/awesome-obs-collections" target="_blank"
+                                class="obs-menu-link">⭐ Star on GitHub</a>
+                            <a href="https://github.com/Pralhad-Nasane/awesome-obs-collections/issues" target="_blank"
+                                class="obs-menu-link">🐛 Report Issue</a>
+                            <a href="https://www.linkedin.com/in/pralhadnasane/" target="_blank"
+                                class="obs-menu-link">💬 Contact</a>
+                            <div class="obs-menu-divider"></div>
+                            <a href="#contribute" class="obs-menu-link obs-menu-link--cta">Contribute →</a>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- Preview Area -->
+                <div class="obs-preview">
+                    <div class="obs-zoom-bar">
+                        <div class="obs-zoom-controls">
+                            <span class="obs-zoom-btn">−</span>
+                            <span class="obs-zoom-value">38%</span>
+                            <span class="obs-zoom-btn">+</span>
+                            <span class="obs-zoom-dropdown">Scale to Window ▾</span>
+                        </div>
+                        <div class="obs-source-info">
+                            <span class="obs-source-text">No source selected</span>
+                            <span class="obs-source-btn">⚙ Properties</span>
+                            <span class="obs-source-btn obs-source-btn--filters">◉ Filters</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom Panels -->
+                <div class="obs-panels">
+                    <div class="obs-panel">
+                        <div class="obs-panel-header"><span>Scenes</span><span class="obs-panel-dock">⊞</span></div>
+                        <div class="obs-panel-content">
+                            <div class="obs-list-item obs-list-item--selected">Scene</div>
+                        </div>
+                        <div class="obs-panel-toolbar">
+                            <span class="obs-toolbar-btn">+</span>
+                            <span class="obs-toolbar-btn">🗑</span>
+                            <span class="obs-toolbar-btn">▲</span>
+                            <span class="obs-toolbar-btn">▼</span>
+                        </div>
+                    </div>
+
+                    <div class="obs-panel obs-panel--sources">
+                        <div class="obs-panel-header"><span>Sources (Plugins)</span><span
+                                class="obs-panel-dock">⊞</span></div>
+                        <div class="obs-panel-content">
+                            <!-- Plugin Carousel -->
+                            <div class="obs-plugin-carousel" id="plugin-carousel">
+                                <div class="obs-plugin-item obs-plugin-item--active">
+                                    <span class="obs-plugin-icon">🎬</span>
+                                    <span class="obs-plugin-name">StreamFX</span>
+                                </div>
+                                <div class="obs-plugin-item">
+                                    <span class="obs-plugin-icon">🔌</span>
+                                    <span class="obs-plugin-name">WebSocket</span>
+                                </div>
+                                <div class="obs-plugin-item">
+                                    <span class="obs-plugin-icon">🎨</span>
+                                    <span class="obs-plugin-name">ShaderFilter</span>
+                                </div>
+                                <div class="obs-plugin-item">
+                                    <span class="obs-plugin-icon">🎭</span>
+                                    <span class="obs-plugin-name">Move Transition</span>
+                                </div>
+                                <div class="obs-plugin-item">
+                                    <span class="obs-plugin-icon">📺</span>
+                                    <span class="obs-plugin-name">NDI</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="obs-panel-toolbar">
+                            <span class="obs-toolbar-btn">+</span>
+                            <span class="obs-toolbar-btn">🗑</span>
+                            <span class="obs-toolbar-btn">⚙</span>
+                        </div>
+                    </div>
+
+                    <div class="obs-panel">
+                        <div class="obs-panel-header"><span>Audio Mixer</span><span class="obs-panel-dock">⊞</span>
+                        </div>
+                        <div class="obs-panel-content">
+                            <div class="obs-mixer-channel">
+                                <div class="obs-mixer-header">
+                                    <span class="obs-mixer-label">Desktop Audio</span>
+                                    <span class="obs-mixer-db">0.0 dB</span>
+                                </div>
+                                <div class="obs-mixer-meter">
+                                    <div class="obs-meter-segment obs-meter-green"></div>
+                                    <div class="obs-meter-segment obs-meter-yellow"></div>
+                                    <div class="obs-meter-segment obs-meter-red"></div>
+                                </div>
+                            </div>
+                            <div class="obs-mixer-channel">
+                                <div class="obs-mixer-header">
+                                    <span class="obs-mixer-label">Mic/Aux</span>
+                                    <span class="obs-mixer-db">0.0 dB</span>
+                                </div>
+                                <div class="obs-mixer-meter">
+                                    <div class="obs-meter-segment obs-meter-green"></div>
+                                    <div class="obs-meter-segment obs-meter-yellow"></div>
+                                    <div class="obs-meter-segment obs-meter-red"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="obs-panel">
+                        <div class="obs-panel-header"><span>Transitions</span><span class="obs-panel-dock">⊞</span>
+                        </div>
+                        <div class="obs-transitions-content">
+                            <div class="obs-transition-select">Fade ▾</div>
+                            <div class="obs-duration-row">
+                                <span>Duration</span>
+                                <input type="text" class="obs-duration-input" value="300 ms" readonly>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="obs-panel obs-controls">
+                        <div class="obs-panel-header"><span>Controls</span><span class="obs-panel-dock">⊞</span></div>
+                        <div class="obs-panel-content">
+                            <div class="obs-control-btn">Start Streaming</div>
+                            <div class="obs-control-btn">Start Recording</div>
+                            <div class="obs-control-btn">Virtual Camera</div>
+                            <div class="obs-control-btn obs-control-btn--settings">Settings</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Status Bar -->
+                <div class="obs-statusbar">
+                    <div class="obs-status-item"><span class="obs-status-dot"></span>00:00:00</div>
+                    <div class="obs-status-item"><span class="obs-status-dot obs-status-dot--rec"></span>00:00:00</div>
+                    <div class="obs-status-item">CPU: 1.4%</div>
+                    <div class="obs-status-item">60.00 / 60.00 FPS</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="hero__scroll">
+            <div class="hero__scroll-line"></div>
+            <span class="hero__scroll-text">Scroll</span>
+        </div>
+    </section>
+
+    <!-- ==================== RESOURCES SECTION WIDGET ==================== -->
+    <section class="resources-section" id="resources">
+        <div class="resources-section__container">
+            <!-- Header -->
+            <header class="resources-section__header">
+                <h2 class="resources-section__title">Explore <span
+                        class="resources-section__title-accent">Resources</span></h2>
+                <p class="resources-section__subtitle">
+                    Discover curated plugins, scripts, tools, and themes to supercharge your OBS Studio workflow.
+                </p>
+            </header>
+
+            <!-- Stats Bar (Minimal) -->
+            <div class="resources-section__stats-bar">
+                <span class="resources-section__stats-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                    </svg>
+                    <strong id="stat-total">52</strong> Resources
+                </span>
+                <span class="resources-section__stats-divider">•</span>
+                <span class="resources-section__stats-item">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                    </svg>
+                    <strong id="stat-stars">18.1k</strong> GitHub Stars
+                </span>
+            </div>
+
+            <!-- Search Bar with Filters -->
+            <div class="resources-section__search">
+                <div class="resources-section__search-wrapper">
+                    <svg class="resources-section__search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <circle cx="11" cy="11" r="8" />
+                        <path d="m21 21-4.35-4.35" />
+                    </svg>
+                    <input type="text" class="resources-section__search-input" id="resources-search"
+                        placeholder="Search plugins, scripts, tools...">
+                </div>
+                <div class="resources-section__filters">
+                    <select class="resources-section__sort" id="resources-sort">
+                        <option value="name">Sort by Name</option>
+                        <option value="stars">Sort by Stars</option>
+                        <option value="updated">Sort by Last Updated</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Main Content (Sidebar + Grid) -->
+            <div class="resources-section__content">
+                <!-- Sidebar -->
+                <aside class="resources-section__sidebar">
+                    <h3 class="resources-section__sidebar-title">Categories</h3>
+                    <div class="resources-section__sidebar-list" id="sidebar-categories">
+                        <!-- All Resources -->
+                        <button class="resources-section__sidebar-item resources-section__sidebar-item--active"
+                            data-category="all">
+                            <span class="resources-section__sidebar-label">
+                                <span class="resources-section__sidebar-icon resources-section__sidebar-icon--all">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="3" width="7" height="7" />
+                                        <rect x="14" y="3" width="7" height="7" />
+                                        <rect x="14" y="14" width="7" height="7" />
+                                        <rect x="3" y="14" width="7" height="7" />
+                                    </svg>
+                                </span>
+                                All Resources
+                            </span>
+                            <span class="resources-section__sidebar-count">52</span>
+                        </button>
+
+                        <!-- Plugins (Collapsible) -->
+                        <div class="resources-section__sidebar-group" data-group="plugins">
+                            <button class="resources-section__sidebar-item resources-section__sidebar-item--parent"
+                                data-category="plugins">
+                                <span class="resources-section__sidebar-label">
+                                    <span
+                                        class="resources-section__sidebar-icon resources-section__sidebar-icon--plugins">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path
+                                                d="M20 11V8c0-1-1-2-2-2h-3V5c0-1.6-1.3-3-3-3s-3 1.4-3 3v1H6c-1 0-2 1-2 2v3c1.6 0 3 1.3 3 3s-1.4 3-3 3v3c0 1 1 2 2 2h3c0-1.6 1.3-3 3-3s3 1.4 3 3h3c1 0 2-1 2-2v-3c-1.6 0-3-1.3-3-3s1.4-3 3-3z" />
+                                        </svg>
+                                    </span>
+                                    Plugins
+                                </span>
+                                <svg class="resources-section__sidebar-chevron" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <polyline points="9 6 15 12 9 18" />
+                                </svg>
+                            </button>
+                            <div class="resources-section__sidebar-subcategories">
+                                <button class="resources-section__sidebar-subitem" data-subcategory="streaming">
+                                    <span>Streaming & Production</span>
+                                    <span class="resources-section__sidebar-count">9</span>
+                                </button>
+                                <button class="resources-section__sidebar-subitem" data-subcategory="recording">
+                                    <span>Recording & Output</span>
+                                    <span class="resources-section__sidebar-count">5</span>
+                                </button>
+                                <button class="resources-section__sidebar-subitem" data-subcategory="effects">
+                                    <span>Visual & Effects</span>
+                                    <span class="resources-section__sidebar-count">12</span>
+                                </button>
+                                <button class="resources-section__sidebar-subitem" data-subcategory="audio">
+                                    <span>Audio</span>
+                                    <span class="resources-section__sidebar-count">1</span>
+                                </button>
+                                <button class="resources-section__sidebar-subitem" data-subcategory="captioning">
+                                    <span>Captioning</span>
+                                    <span class="resources-section__sidebar-count">2</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Scripts (Collapsible) -->
+                        <div class="resources-section__sidebar-group" data-group="scripts">
+                            <button class="resources-section__sidebar-item resources-section__sidebar-item--parent"
+                                data-category="scripts">
+                                <span class="resources-section__sidebar-label">
+                                    <span
+                                        class="resources-section__sidebar-icon resources-section__sidebar-icon--scripts">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <polyline points="16 18 22 12 16 6" />
+                                            <polyline points="8 6 2 12 8 18" />
+                                        </svg>
+                                    </span>
+                                    Scripts
+                                </span>
+                                <svg class="resources-section__sidebar-chevron" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <polyline points="9 6 15 12 9 18" />
+                                </svg>
+                            </button>
+                            <div class="resources-section__sidebar-subcategories">
+                                <button class="resources-section__sidebar-subitem" data-subcategory="lua">
+                                    <span>Lua Scripts</span>
+                                    <span class="resources-section__sidebar-count">4</span>
+                                </button>
+                                <button class="resources-section__sidebar-subitem" data-subcategory="python">
+                                    <span>Python Scripts</span>
+                                    <span class="resources-section__sidebar-count">8</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Tools -->
+                        <button class="resources-section__sidebar-item" data-category="tools">
+                            <span class="resources-section__sidebar-label">
+                                <span class="resources-section__sidebar-icon resources-section__sidebar-icon--tools">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path
+                                            d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                                    </svg>
+                                </span>
+                                Tools
+                            </span>
+                            <span class="resources-section__sidebar-count">6</span>
+                        </button>
+
+                        <!-- Themes -->
+                        <button class="resources-section__sidebar-item" data-category="themes">
+                            <span class="resources-section__sidebar-label">
+                                <span class="resources-section__sidebar-icon resources-section__sidebar-icon--themes">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="M12 2a10 10 0 0 0 0 20 4 4 0 0 0 0-8 2 2 0 0 1 0-4 10 10 0 0 0 0-8z" />
+                                    </svg>
+                                </span>
+                                Themes
+                            </span>
+                            <span class="resources-section__sidebar-count">4</span>
+                        </button>
+
+                        <!-- Forks -->
+                        <button class="resources-section__sidebar-item" data-category="forks">
+                            <span class="resources-section__sidebar-label">
+                                <span class="resources-section__sidebar-icon resources-section__sidebar-icon--forks">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="18" r="3" />
+                                        <circle cx="6" cy="6" r="3" />
+                                        <circle cx="18" cy="6" r="3" />
+                                        <path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9" />
+                                        <path d="M12 12v3" />
+                                    </svg>
+                                </span>
+                                Forks
+                            </span>
+                            <span class="resources-section__sidebar-count">1</span>
+                        </button>
+                    </div>
+                </aside>
+
+                <!-- Resources Grid (dynamically populated) -->
+                <div class="resources-section__grid" id="resources-grid">
+                    <!-- Cards loaded via JavaScript -->
+                    <div class="resources-section__loading">
+                        <div class="resources-section__spinner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTRIBUTE SECTION ==================== -->
+    <section class="contribute-section" id="contribute">
+        <div class="contribute-section__container">
+            <header class="contribute-section__header">
+                <h2 class="contribute-section__title">Help Us <span class="contribute-section__title-accent">Grow</span>
+                </h2>
+                <p class="contribute-section__subtitle">
+                    Found a great resource? Have feedback? We'd love to hear from you!
+                </p>
+            </header>
+
+            <div class="contribute-section__cards">
+                <!-- Suggest Resource -->
+                <a href="https://github.com/Pralhad-Nasane/awesome-obs-collections/issues/new?template=feature_request.md"
+                    class="contribute-section__card" target="_blank" rel="noopener noreferrer">
+                    <div class="contribute-section__card-icon contribute-section__card-icon--suggest">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="12" y1="8" x2="12" y2="16" />
+                            <line x1="8" y1="12" x2="16" y2="12" />
+                        </svg>
+                    </div>
+                    <h3 class="contribute-section__card-title">Suggest a Resource</h3>
+                    <p class="contribute-section__card-desc">Know an awesome plugin or script? Let us know!</p>
+                </a>
+
+                <!-- Report Bug -->
+                <a href="https://github.com/Pralhad-Nasane/awesome-obs-collections/issues/new?template=bug_report.md"
+                    class="contribute-section__card" target="_blank" rel="noopener noreferrer">
+                    <div class="contribute-section__card-icon contribute-section__card-icon--bug">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="12" y1="8" x2="12" y2="12" />
+                            <line x1="12" y1="16" x2="12.01" y2="16" />
+                        </svg>
+                    </div>
+                    <h3 class="contribute-section__card-title">Report an Issue</h3>
+                    <p class="contribute-section__card-desc">Found a broken link or outdated info? Tell us!</p>
+                </a>
+
+                <!-- Contribute Code -->
+                <a href="https://github.com/Pralhad-Nasane/awesome-obs-collections/compare"
+                    class="contribute-section__card" target="_blank" rel="noopener noreferrer">
+                    <div class="contribute-section__card-icon contribute-section__card-icon--code">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                            <path d="M9 18c-4.51 2-5-2-7-2" />
+                        </svg>
+                    </div>
+                    <h3 class="contribute-section__card-title">Create a Pull Request</h3>
+                    <p class="contribute-section__card-desc">Ready to contribute? Submit your changes!</p>
+                </a>
+
+                <!-- Contact (No GitHub needed) -->
+                <a href="https://www.linkedin.com/in/pralhadnasane/" class="contribute-section__card" target="_blank"
+                    rel="noopener noreferrer">
+                    <div class="contribute-section__card-icon contribute-section__card-icon--contact">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                    </div>
+                    <h3 class="contribute-section__card-title">Send a Message</h3>
+                    <p class="contribute-section__card-desc">No GitHub? Reach out via LinkedIn!</p>
+                </a>
+            </div>
+
+            <div class="contribute-section__cta">
+                <a href="https://github.com/Pralhad-Nasane/awesome-obs-collections" class="contribute-section__button"
+                    target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                    Star on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <!-- Branding -->
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <img src="assets/images/icon.png" alt="OBSverse" class="footer__logo-icon">
+                        <span class="footer__logo-text">
+                            <strong>OBS</strong><span>verse</span>
+                        </span>
+                    </div>
+                    <p class="footer__tagline">Curated open-source resources for OBS Studio</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer__links">
+                    <h4 class="footer__links-title">Quick Links</h4>
+                    <nav class="footer__nav">
+                        <a href="#resources" class="footer__link">Resources</a>
+                        <a href="#contribute" class="footer__link">Contribute</a>
+                        <a href="https://github.com/Pralhad-Nasane/awesome-obs-collections" target="_blank"
+                            class="footer__link">GitHub</a>
+                    </nav>
+                </div>
+
+                <!-- Social -->
+                <div class="footer__social">
+                    <h4 class="footer__links-title">Connect</h4>
+                    <div class="footer__social-icons">
+                        <a href="https://github.com/Pralhad-Nasane" target="_blank" class="footer__social-link"
+                            aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pralhadnasane/" target="_blank" class="footer__social-link"
+                            aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2025 Pralhad Nasane. MIT License.</p>
+                <p class="footer__made-with">Made with ❤️ for the OBS community</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <!-- Widgets -->
+    <script src="src/widgets/obs-mockup/lib/obs-animations.js"></script>
+    <script src="src/widgets/resources-section/lib/resources-loader.js"></script>
+
+    <!-- Navbar Controller -->
+    <script src="src/widgets/navbar/lib/navbar-controller.js"></script>
+
+    <!-- App Initialization -->
+    <script>
+        console.log('OBSverse App initialized');
+
+        // Scroll Progress Bar
+        const scrollProgress = document.getElementById('scrollProgress');
+
+        function updateScrollProgress() {
+            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrollPercent = (scrollTop / scrollHeight) * 100;
+            scrollProgress.style.width = scrollPercent + '%';
+        }
+
+        window.addEventListener('scroll', updateScrollProgress, { passive: true });
+        updateScrollProgress(); // Initial call
+    </script>
+</body>
+
+</html>

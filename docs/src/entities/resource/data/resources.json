@@ -1,0 +1,1011 @@
+{
+    "categories": [
+        {
+            "id": "plugins",
+            "name": "Plugins",
+            "icon": "puzzle",
+            "color": "#6366f1"
+        },
+        {
+            "id": "scripts",
+            "name": "Scripts",
+            "icon": "code",
+            "color": "#22c55e"
+        },
+        {
+            "id": "tools",
+            "name": "Tools",
+            "icon": "wrench",
+            "color": "#f59e0b"
+        },
+        {
+            "id": "themes",
+            "name": "Themes",
+            "icon": "palette",
+            "color": "#ec4899"
+        },
+        {
+            "id": "forks",
+            "name": "Forks",
+            "icon": "git-branch",
+            "color": "#8b5cf6"
+        }
+    ],
+    "resources": [
+        {
+            "id": "obs-multi-rtmp",
+            "name": "Multiple RTMP Outputs",
+            "description": "Stream to multiple platforms simultaneously.",
+            "category": "plugins",
+            "subcategory": "streaming",
+            "url": "https://github.com/sorayuki/obs-multi-rtmp",
+            "stars": 4513,
+            "author": "sorayuki",
+            "lastUpdated": "2025-10-25",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": true,
+            "tags": [
+                "streaming",
+                "multistream",
+                "rtmp"
+            ]
+        },
+        {
+            "id": "obs-vertical-canvas",
+            "name": "Aitum Vertical",
+            "description": "Adds a vertical canvas (9:16) for Shorts/Reels. Perfect for TikTok, YouTube Shorts.",
+            "category": "plugins",
+            "subcategory": "streaming",
+            "url": "https://github.com/aitum/obs-vertical-canvas",
+            "stars": 232,
+            "author": "Aitum",
+            "lastUpdated": "2025-10-15",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "vertical",
+                "shorts",
+                "reels"
+            ]
+        },
+        {
+            "id": "obs-aitum-multistream",
+            "name": "Aitum Multistream",
+            "description": "Integrated multi-platform streaming inside OBS.",
+            "category": "plugins",
+            "subcategory": "streaming",
+            "url": "https://github.com/aitum/obs-aitum-multistream",
+            "stars": 169,
+            "author": "Aitum",
+            "lastUpdated": "2025-08-05",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "multistream",
+                "streaming"
+            ]
+        },
+        {
+            "id": "scene-switcher",
+            "name": "Advanced Scene Switcher",
+            "description": "Rule-based automated scene switching. Powerful automation tool.",
+            "category": "plugins",
+            "subcategory": "streaming",
+            "url": "https://github.com/WarmUpTill/SceneSwitcher",
+            "stars": 1319,
+            "author": "WarmUpTill",
+            "lastUpdated": "2025-12-06",
+            "repoType": "github",
+            "difficulty": "advanced",
+            "featured": true,
+            "tags": [
+                "automation",
+                "scenes",
+                "switching"
+            ]
+        },
+        {
+            "id": "obs-source-dock",
+            "name": "Source Dock",
+            "description": "Pop any source out into a movable dock.",
+            "category": "plugins",
+            "subcategory": "streaming",
+            "url": "https://github.com/exeldro/obs-source-dock",
+            "stars": 88,
+            "author": "exeldro",
+            "lastUpdated": "2025-08-30",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "dock",
+                "ui",
+                "sources"
+            ]
+        },
+        {
+            "id": "obs-downstream-keyer",
+            "name": "Downstream Keyer",
+            "description": "Add persistent overlays across all scenes. Great for branding.",
+            "category": "plugins",
+            "subcategory": "streaming",
+            "url": "https://github.com/exeldro/obs-downstream-keyer",
+            "stars": 143,
+            "author": "exeldro",
+            "lastUpdated": "2025-10-20",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": false,
+            "tags": [
+                "overlay",
+                "branding",
+                "keyer"
+            ]
+        },
+        {
+            "id": "obs-dir-watch-media",
+            "name": "Directory Watch Media",
+            "description": "Auto-update media source based on folder contents.",
+            "category": "plugins",
+            "subcategory": "streaming",
+            "url": "https://github.com/exeldro/obs-dir-watch-media",
+            "stars": 47,
+            "author": "exeldro",
+            "lastUpdated": "2024-09-04",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": false,
+            "tags": [
+                "media",
+                "automation",
+                "folder"
+            ]
+        },
+        {
+            "id": "autostarter",
+            "name": "Autostarter",
+            "description": "Auto-launch programs when OBS starts.",
+            "category": "plugins",
+            "subcategory": "streaming",
+            "url": "https://github.com/DaviBe92/Autostarter",
+            "stars": 11,
+            "author": "DaviBe92",
+            "lastUpdated": "2025-02-20",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "automation",
+                "startup"
+            ]
+        },
+        {
+            "id": "obs-streamelements-core",
+            "name": "SE.Live (StreamElements)",
+            "description": "Integrates Twitch/YouTube/Facebook chat, alerts, and activity feeds.",
+            "category": "plugins",
+            "subcategory": "streaming",
+            "url": "https://github.com/StreamElements/obs-streamelements-core",
+            "stars": 15,
+            "author": "StreamElements",
+            "lastUpdated": "2025-12-08",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "chat",
+                "alerts",
+                "twitch"
+            ]
+        },
+        {
+            "id": "obs-source-record",
+            "name": "Source Record",
+            "description": "Record individual sources or scenes without affecting main stream.",
+            "category": "plugins",
+            "subcategory": "recording",
+            "url": "https://github.com/exeldro/obs-source-record",
+            "stars": 508,
+            "author": "exeldro",
+            "lastUpdated": "2025-05-07",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "recording",
+                "sources"
+            ]
+        },
+        {
+            "id": "obs-replay-source",
+            "name": "Replay Source",
+            "description": "Instant replay playback + buffer. Perfect for gaming streams.",
+            "category": "plugins",
+            "subcategory": "recording",
+            "url": "https://github.com/exeldro/obs-replay-source",
+            "stars": 167,
+            "author": "exeldro",
+            "lastUpdated": "2025-03-21",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": false,
+            "tags": [
+                "replay",
+                "gaming",
+                "buffer"
+            ]
+        },
+        {
+            "id": "obs-websocket",
+            "name": "OBS WebSocket",
+            "description": "Remote control interface for OBS v28+. Essential for automation.",
+            "category": "plugins",
+            "subcategory": "recording",
+            "url": "https://github.com/obsproject/obs-websocket",
+            "stars": 4196,
+            "author": "obsproject",
+            "lastUpdated": "2025-09-17",
+            "repoType": "github",
+            "difficulty": "advanced",
+            "featured": true,
+            "tags": [
+                "api",
+                "automation",
+                "remote-control"
+            ]
+        },
+        {
+            "id": "distroav",
+            "name": "DistroAV (NDI)",
+            "description": "Send/receive high-quality video over IP using NDI protocol.",
+            "category": "plugins",
+            "subcategory": "recording",
+            "url": "https://github.com/DistroAV/DistroAV",
+            "stars": 4071,
+            "author": "DistroAV",
+            "lastUpdated": "2025-11-30",
+            "repoType": "github",
+            "difficulty": "advanced",
+            "featured": false,
+            "tags": [
+                "ndi",
+                "network",
+                "video"
+            ]
+        },
+        {
+            "id": "win-capture-audio",
+            "name": "Win-Capture-Audio",
+            "description": "Capture audio from specific applications. Isolate audio sources.",
+            "category": "plugins",
+            "subcategory": "recording",
+            "url": "https://github.com/bozbez/win-capture-audio",
+            "stars": 3969,
+            "author": "bozbez",
+            "lastUpdated": "2024-01-30",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "audio",
+                "capture",
+                "windows"
+            ]
+        },
+        {
+            "id": "obs-move-transition",
+            "name": "Move Transition",
+            "description": "Animated transitions for sources. Create smooth scene transitions.",
+            "category": "plugins",
+            "subcategory": "effects",
+            "url": "https://github.com/exeldro/obs-move-transition",
+            "stars": 815,
+            "author": "exeldro",
+            "lastUpdated": "2025-11-22",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": true,
+            "tags": [
+                "transitions",
+                "animation",
+                "scenes"
+            ]
+        },
+        {
+            "id": "streamfx-public",
+            "name": "StreamFX",
+            "description": "Advanced effects: 3D, blur, shaders, glow. Industry-standard plugin.",
+            "category": "plugins",
+            "subcategory": "effects",
+            "url": "https://github.com/Vhonowslend/StreamFX-Public",
+            "stars": 4102,
+            "author": "Vhonowslend",
+            "lastUpdated": "2024-12-13",
+            "repoType": "github",
+            "difficulty": "advanced",
+            "featured": true,
+            "tags": [
+                "effects",
+                "blur",
+                "3d",
+                "shaders"
+            ]
+        },
+        {
+            "id": "streamfx-freefx",
+            "name": "StreamFX FreeFX Fork",
+            "description": "Updated community fork of StreamFX.",
+            "category": "plugins",
+            "subcategory": "effects",
+            "url": "https://github.com/xoxfaby/obs-StreamFX",
+            "stars": 155,
+            "author": "xoxfaby",
+            "lastUpdated": "2024-07-12",
+            "repoType": "github",
+            "difficulty": "advanced",
+            "featured": false,
+            "tags": [
+                "effects",
+                "fork",
+                "community"
+            ]
+        },
+        {
+            "id": "obs-shaderfilter",
+            "name": "ShaderFilter",
+            "description": "Apply GLSL/HLSL shader filters to any source. Custom shaders.",
+            "category": "plugins",
+            "subcategory": "effects",
+            "url": "https://github.com/exeldro/obs-shaderfilter",
+            "stars": 630,
+            "author": "exeldro",
+            "lastUpdated": "2025-12-06",
+            "repoType": "github",
+            "difficulty": "advanced",
+            "featured": false,
+            "tags": [
+                "shaders",
+                "effects",
+                "filters"
+            ]
+        },
+        {
+            "id": "obs-3d-effect",
+            "name": "3D Effect",
+            "description": "Adds 3D rotation and perspective effects. Transform in 3D space.",
+            "category": "plugins",
+            "subcategory": "effects",
+            "url": "https://github.com/exeldro/obs-3d-effect",
+            "stars": 111,
+            "author": "exeldro",
+            "lastUpdated": "2025-05-16",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": false,
+            "tags": [
+                "3d",
+                "transform",
+                "perspective"
+            ]
+        },
+        {
+            "id": "obs-freeze-filter",
+            "name": "Freeze Filter",
+            "description": "Freeze any video source on demand. Instant freeze frame.",
+            "category": "plugins",
+            "subcategory": "effects",
+            "url": "https://github.com/exeldro/obs-freeze-filter",
+            "stars": 68,
+            "author": "exeldro",
+            "lastUpdated": "2025-07-16",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "freeze",
+                "filter",
+                "video"
+            ]
+        },
+        {
+            "id": "obs-composite-blur",
+            "name": "Composite Blur",
+            "description": "High-performance blur with Gaussian, Box, Bokeh algorithms.",
+            "category": "plugins",
+            "subcategory": "effects",
+            "url": "https://github.com/FiniteSingularity/obs-composite-blur",
+            "stars": 586,
+            "author": "FiniteSingularity",
+            "lastUpdated": "2025-07-23",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": false,
+            "tags": [
+                "blur",
+                "effects",
+                "filter"
+            ]
+        },
+        {
+            "id": "obs-backgroundremoval",
+            "name": "Background Removal",
+            "description": "AI-powered virtual green screen using neural network segmentation.",
+            "category": "plugins",
+            "subcategory": "effects",
+            "url": "https://github.com/royshil/obs-backgroundremoval",
+            "stars": 3960,
+            "author": "royshil",
+            "lastUpdated": "2025-11-23",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": true,
+            "tags": [
+                "ai",
+                "background",
+                "webcam"
+            ]
+        },
+        {
+            "id": "input-overlay",
+            "name": "Input Overlay",
+            "description": "Visualize keyboard, mouse, and gamepad inputs on stream.",
+            "category": "plugins",
+            "subcategory": "effects",
+            "url": "https://github.com/univrsal/input-overlay",
+            "stars": 3668,
+            "author": "univrsal",
+            "lastUpdated": "2025-12-03",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": false,
+            "tags": [
+                "input",
+                "keyboard",
+                "gamepad"
+            ]
+        },
+        {
+            "id": "spectralizer",
+            "name": "Spectralizer",
+            "description": "Beautiful audio visualizer inside OBS. (Archived)",
+            "category": "plugins",
+            "subcategory": "effects",
+            "url": "https://github.com/univrsal/spectralizer",
+            "stars": 611,
+            "author": "univrsal",
+            "lastUpdated": "2022-03-30",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "audio",
+                "visualizer",
+                "archived"
+            ]
+        },
+        {
+            "id": "tuna",
+            "name": "Tuna",
+            "description": "Real-time Now Playing music info from media players.",
+            "category": "plugins",
+            "subcategory": "effects",
+            "url": "https://github.com/univrsal/tuna",
+            "stars": 859,
+            "author": "univrsal",
+            "lastUpdated": "2025-09-27",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "music",
+                "spotify",
+                "now-playing"
+            ]
+        },
+        {
+            "id": "obs-face-tracker",
+            "name": "Face Tracker",
+            "description": "AI-powered face tracking for dynamic camera focus.",
+            "category": "plugins",
+            "subcategory": "effects",
+            "url": "https://github.com/norihiro/obs-face-tracker",
+            "stars": 432,
+            "author": "norihiro",
+            "lastUpdated": "2025-11-04",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": false,
+            "tags": [
+                "ai",
+                "face",
+                "tracking"
+            ]
+        },
+        {
+            "id": "obs-asio",
+            "name": "OBS-ASIO",
+            "description": "Native ASIO driver support for OBS. Low-latency audio.",
+            "category": "plugins",
+            "subcategory": "audio",
+            "url": "https://github.com/Andersama/obs-asio",
+            "stars": 788,
+            "author": "Andersama",
+            "lastUpdated": "2024-09-03",
+            "repoType": "github",
+            "difficulty": "advanced",
+            "featured": false,
+            "tags": [
+                "asio",
+                "audio",
+                "low-latency"
+            ]
+        },
+        {
+            "id": "obs-localvocal",
+            "name": "LocalVocal",
+            "description": "Offline Whisper-based subtitles & translation. No cloud required.",
+            "category": "plugins",
+            "subcategory": "captioning",
+            "url": "https://github.com/royshil/obs-localvocal",
+            "stars": 1188,
+            "author": "royshil",
+            "lastUpdated": "2025-12-07",
+            "repoType": "github",
+            "difficulty": "advanced",
+            "featured": false,
+            "tags": [
+                "subtitles",
+                "translation",
+                "ai"
+            ]
+        },
+        {
+            "id": "obs-color-monitor",
+            "name": "OBS Color Monitor",
+            "description": "Waveform, vectorscope, parade scopes for color grading.",
+            "category": "plugins",
+            "subcategory": "captioning",
+            "url": "https://github.com/norihiro/obs-color-monitor",
+            "stars": 188,
+            "author": "norihiro",
+            "lastUpdated": "2025-11-11",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": false,
+            "tags": [
+                "color",
+                "scopes",
+                "professional"
+            ]
+        },
+        {
+            "id": "libre-macros",
+            "name": "Libre Macros",
+            "description": "Macro engine for advanced automation.",
+            "category": "scripts",
+            "subcategory": "lua",
+            "url": "https://github.com/upgradeQ/libre-macros",
+            "stars": 28,
+            "author": "upgradeQ",
+            "lastUpdated": "2025-11-15",
+            "repoType": "github",
+            "difficulty": "advanced",
+            "featured": false,
+            "tags": [
+                "macros",
+                "automation",
+                "lua"
+            ]
+        },
+        {
+            "id": "obs-zoom-to-mouse",
+            "name": "Zoom to Mouse",
+            "description": "Automatically zooms display capture to follow mouse cursor.",
+            "category": "scripts",
+            "subcategory": "lua",
+            "url": "https://github.com/BlankSourceCode/obs-zoom-to-mouse",
+            "stars": 952,
+            "author": "BlankSourceCode",
+            "lastUpdated": "2024-06-07",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "zoom",
+                "mouse",
+                "tutorials"
+            ]
+        },
+        {
+            "id": "obs-bounce",
+            "name": "OBS Bounce",
+            "description": "Animate sources with DVD-logo style bouncing or physics throwing.",
+            "category": "scripts",
+            "subcategory": "lua",
+            "url": "https://github.com/insin/obs-bounce",
+            "stars": 52,
+            "author": "insin",
+            "lastUpdated": "2025-02-13",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "animation",
+                "physics",
+                "fun"
+            ]
+        },
+        {
+            "id": "rse-obs-scripts",
+            "name": "Auto Execute Commands",
+            "description": "Execute commands on OBS startup/shutdown.",
+            "category": "scripts",
+            "subcategory": "lua",
+            "url": "https://github.com/rse/obs-scripts",
+            "stars": 20,
+            "author": "rse",
+            "lastUpdated": "2024-07-14",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "commands",
+                "automation",
+                "startup"
+            ]
+        },
+        {
+            "id": "obs-countdown-python",
+            "name": "Countdown Timer",
+            "description": "Countdown to specific date/time with customizable text.",
+            "category": "scripts",
+            "subcategory": "python",
+            "url": "https://github.com/micahmo/obs-countdown-python",
+            "stars": 4,
+            "author": "micahmo",
+            "lastUpdated": "2020-06-26",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "timer",
+                "countdown",
+                "python"
+            ]
+        },
+        {
+            "id": "countdown-timer-obs",
+            "name": "Countdown Timer with Sound",
+            "description": "GUI countdown timer with sound alerts.",
+            "category": "scripts",
+            "subcategory": "python",
+            "url": "https://github.com/KernFerm/countdown-timer-obs",
+            "stars": 1,
+            "author": "KernFerm",
+            "lastUpdated": "2025-12-01",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "timer",
+                "sound",
+                "gui"
+            ]
+        },
+        {
+            "id": "now-playing-linux",
+            "name": "Now Playing (Linux)",
+            "description": "Spotify/media player info for Linux with artwork.",
+            "category": "scripts",
+            "subcategory": "python",
+            "url": "https://github.com/shock59/now-playing",
+            "stars": 2,
+            "author": "shock59",
+            "lastUpdated": "2024-06-21",
+            "repoType": "github",
+            "difficulty": "advanced",
+            "featured": false,
+            "tags": [
+                "music",
+                "linux",
+                "spotify"
+            ]
+        },
+        {
+            "id": "obs-date-time",
+            "name": "Date Time",
+            "description": "Real-time date and time display.",
+            "category": "scripts",
+            "subcategory": "python",
+            "url": "https://github.com/deadbraindev/obs-date-time",
+            "stars": 1,
+            "author": "deadbraindev",
+            "lastUpdated": "2024-02-12",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "date",
+                "time",
+                "text"
+            ]
+        },
+        {
+            "id": "obs-scene-switcher",
+            "name": "Random Scene Switcher",
+            "description": "Randomly switch between scenes at intervals.",
+            "category": "scripts",
+            "subcategory": "python",
+            "url": "https://github.com/deadbraindev/obs-scene-switcher",
+            "stars": 1,
+            "author": "deadbraindev",
+            "lastUpdated": "2024-02-12",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": false,
+            "tags": [
+                "scenes",
+                "random",
+                "switching"
+            ]
+        },
+        {
+            "id": "obs-random-text",
+            "name": "Random Text Generator",
+            "description": "Display random text from lists with hotkey support.",
+            "category": "scripts",
+            "subcategory": "python",
+            "url": "https://github.com/revenkroz/obs-random-text",
+            "stars": 17,
+            "author": "revenkroz",
+            "lastUpdated": "2022-11-04",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "text",
+                "random",
+                "hotkey"
+            ]
+        },
+        {
+            "id": "obs-scripts-sequence",
+            "name": "Sequence Sources",
+            "description": "Cycle through sources with random mode.",
+            "category": "scripts",
+            "subcategory": "python",
+            "url": "https://github.com/Prosperelucel/obs-scripts",
+            "stars": 16,
+            "author": "Prosperelucel",
+            "lastUpdated": "2020-07-13",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": false,
+            "tags": [
+                "sources",
+                "sequence",
+                "cycle"
+            ]
+        },
+        {
+            "id": "obs-websocket-py",
+            "name": "OBS WebSocket Python Client",
+            "description": "Control OBS remotely via Python. Create custom automation.",
+            "category": "scripts",
+            "subcategory": "python",
+            "url": "https://github.com/Elektordi/obs-websocket-py",
+            "stars": 266,
+            "author": "Elektordi",
+            "lastUpdated": "2024-08-09",
+            "repoType": "github",
+            "difficulty": "advanced",
+            "featured": false,
+            "tags": [
+                "websocket",
+                "python",
+                "automation"
+            ]
+        },
+        {
+            "id": "companion",
+            "name": "Bitfocus Companion",
+            "description": "Production automation + OBS control. Stream Deck integration.",
+            "category": "tools",
+            "url": "https://github.com/bitfocus/companion",
+            "stars": 2000,
+            "author": "bitfocus",
+            "lastUpdated": "2025-12-07",
+            "repoType": "github",
+            "difficulty": "advanced",
+            "featured": true,
+            "tags": [
+                "streamdeck",
+                "automation",
+                "production"
+            ]
+        },
+        {
+            "id": "kruiz-control",
+            "name": "Kruiz Control",
+            "description": "Event-driven automation scripting for OBS. Great for Twitch.",
+            "category": "tools",
+            "url": "https://github.com/Kruiser8/Kruiz-Control",
+            "stars": 240,
+            "author": "Kruiser8",
+            "lastUpdated": "2025-08-26",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": false,
+            "tags": [
+                "automation",
+                "twitch",
+                "events"
+            ]
+        },
+        {
+            "id": "obs-cli",
+            "name": "OBS CLI",
+            "description": "Control OBS Studio from terminal/automation scripts.",
+            "category": "tools",
+            "url": "https://github.com/muesli/obs-cli",
+            "stars": 439,
+            "author": "muesli",
+            "lastUpdated": "2023-03-15",
+            "repoType": "github",
+            "difficulty": "advanced",
+            "featured": false,
+            "tags": [
+                "cli",
+                "terminal",
+                "automation"
+            ]
+        },
+        {
+            "id": "nohboard",
+            "name": "NohBoard",
+            "description": "Standalone keyboard visualization tool.",
+            "category": "tools",
+            "url": "https://github.com/ThoNohT/NohBoard",
+            "stars": 1191,
+            "author": "ThoNohT",
+            "lastUpdated": "2024-04-07",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "keyboard",
+                "visualization",
+                "gaming"
+            ]
+        },
+        {
+            "id": "obs-web",
+            "name": "OBS-Web",
+            "description": "Browser-based remote control panel. Touch-friendly.",
+            "category": "tools",
+            "url": "https://github.com/Niek/obs-web",
+            "stars": 1382,
+            "author": "Niek",
+            "lastUpdated": "2025-12-08",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "web",
+                "remote",
+                "mobile"
+            ]
+        },
+        {
+            "id": "obs-cmd",
+            "name": "OBS Command",
+            "description": "CLI tool for controlling OBS instances. Rust-based.",
+            "category": "tools",
+            "url": "https://github.com/kalenmike/obs-cmd",
+            "stars": 1,
+            "author": "kalenmike",
+            "lastUpdated": "2023-12-29",
+            "repoType": "github",
+            "difficulty": "advanced",
+            "featured": false,
+            "tags": [
+                "cli",
+                "rust",
+                "automation"
+            ]
+        },
+        {
+            "id": "twitchy-theme",
+            "name": "Twitchy Theme",
+            "description": "Twitch-inspired interface theme. Purple aesthetic.",
+            "category": "themes",
+            "url": "https://obsproject.com/forum/resources/twitchy-obs-theme.1192/",
+            "stars": 0,
+            "author": "Community",
+            "lastUpdated": "2024-01-01",
+            "repoType": "community",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "theme",
+                "twitch",
+                "purple"
+            ]
+        },
+        {
+            "id": "catppuccin-obs",
+            "name": "Catppuccin",
+            "description": "Soothing pastel theme in Latte, Frappé, Macchiato, Mocha variants.",
+            "category": "themes",
+            "url": "https://github.com/catppuccin/obs",
+            "stars": 157,
+            "author": "catppuccin",
+            "lastUpdated": "2025-07-29",
+            "repoType": "github",
+            "difficulty": "beginner",
+            "featured": true,
+            "tags": [
+                "theme",
+                "pastel",
+                "dark"
+            ]
+        },
+        {
+            "id": "ocean-blue",
+            "name": "Ocean Blue",
+            "description": "Modern dark theme with blue accents and clean look.",
+            "category": "themes",
+            "url": "https://obsproject.com/forum/resources/ocean-blue.1933/",
+            "stars": 0,
+            "author": "Community",
+            "lastUpdated": "2024-01-01",
+            "repoType": "community",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "theme",
+                "dark",
+                "blue"
+            ]
+        },
+        {
+            "id": "meloncholy",
+            "name": "Meloncholy",
+            "description": "Vibrant light theme with custom icons. Updated March 2024.",
+            "category": "themes",
+            "url": "https://obsproject.com/forum/resources/meloncholy.1894/",
+            "stars": 0,
+            "author": "Community",
+            "lastUpdated": "2024-03-01",
+            "repoType": "community",
+            "difficulty": "beginner",
+            "featured": false,
+            "tags": [
+                "theme",
+                "light",
+                "icons"
+            ]
+        },
+        {
+            "id": "prism-live-studio",
+            "name": "Prism Live Studio",
+            "description": "Feature-rich fork with beauty effects and built-in multistreaming.",
+            "category": "forks",
+            "url": "https://github.com/naver/prism-live-studio",
+            "stars": 102,
+            "author": "naver",
+            "lastUpdated": "2025-07-30",
+            "repoType": "github",
+            "difficulty": "intermediate",
+            "featured": true,
+            "tags": [
+                "fork",
+                "beauty",
+                "multistream"
+            ]
+        }
+    ]
+}
