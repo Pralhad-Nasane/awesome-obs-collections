@@ -8,7 +8,6 @@
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange?style=flat-square)](https://github.com/Pralhad-Nasane/awesome-obs-collections/blob/main/contributing.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgray?style=flat-square)](https://github.com/Pralhad-Nasane/awesome-obs-collections/blob/main/LICENSE)
 ![Visitors](https://hits.sh/github.com/Pralhad-Nasane/awesome-obs-collections.svg?style=flat-square&label=Visitors&color=6366f1)
-[![Website](https://img.shields.io/badge/Website-Live-success?style=flat-square)](https://pralhad-nasane.github.io/awesome-obs-collections/)
 
 🌐 **Official Website**: [https://pralhad-nasane.github.io/awesome-obs-collections/](https://pralhad-nasane.github.io/awesome-obs-collections/)
 
